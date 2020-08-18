@@ -7,19 +7,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="chapter2" />
+        <module name="SpringSecurityCongnito" />
+        <module name="AWSCognitoDemo" />
         <module name="AWS-Cognito-boot-Sample" />
+        <module name="chapter2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AWS-Cognito-boot-Sample" target="1.8" />
+      <module name="AWSCognitoDemo" target="1.8" />
       <module name="chapter2" target="1.8" />
       <module name="springboot-study" target="1.8" />
+      <module name="SpringSecurityCongnito" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AWS-Cognito-boot-Sample" options="-parameters" />
+      <module name="AWSCognitoDemo" options="-parameters" />
+      <module name="SpringSecurityCongnito" options="-parameters" />
       <module name="chapter2" options="-parameters" />
       <module name="springboot-study" options="-parameters" />
     </option>

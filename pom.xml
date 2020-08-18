@@ -6,7 +6,9 @@
 	<modules>
 		<module>chapter2</module>
 		<module>AWS-Cognito-boot-Sample</module>
-	</modules>
+        <module>AWSCognitoDemo</module>
+        <module>SpringSecurityCongnito</module>
+    </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
